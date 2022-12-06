@@ -9,6 +9,8 @@ function MainContent() {
     setHelpVisible((isVisible) => !isVisible);
   }
 
+  // Comment
+
   return (
     <main>
       <button onClick={toggleHelp}>{helpVisible ? 'Hide' : 'Show'} Help</button>
